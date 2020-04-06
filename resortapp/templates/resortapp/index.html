@@ -1,0 +1,295 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+{% load static %}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maldorkar Resort</title>
+
+	<link href="{% static 'bundles/css/style-starter.css' %}" rel="stylesheet" type="text/css"><!-- Style-CSS -->
+
+	<style>
+	</style>
+</head>
+
+<body>
+	<!-- page -->
+	<div id="page" class="page">
+
+	<!-- header -->
+    <div class="w3l-headers-9">
+        <header>
+            <div class="wrapper">
+                <div class="header">
+                    <div class="right-img-9">
+                        <!-- overlay-menuv-menu -->
+                        <div class="overlay-menuv-hny">
+                            <input type="checkbox" id="op">
+                            <div class="side-menu-hny">
+                                <label for="op" class="menuopen">
+                                    <img src="{% static 'bundles/images/logo.png' %}" alt="menu" style="outline: none; cursor: inherit;"></label>
+                            </div>
+                            <div class="overlay-menuv overlay-menuv-hugeinc">
+                                <label for="op" class="menuclose"></label>
+                                <nav class="menu-side-over-left">
+                                    <h6 class="search-text editContent" style="outline: none; cursor: inherit;">Where do you want to go...</h6>
+                                    <form action="#" method="post" class="d-flex search-head-form editContent" style="outline: none; cursor: inherit;">
+                                        <button type="submit" class="buttonbg btn" style="outline: none; cursor: inherit;">Search</button>
+                                    </form>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- //overlay-menuv-menu -->
+                    </div>
+                    <div>
+                        <h1>
+                            <a href="./index" class="logo editContent" style="color: rgb(44, 48, 56); font-size: 40px; background-color: rgba(0, 0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">Maldorkar Resort</a>
+                            <!-- if logo is image enable this   
+                            <a class="logo" href="index.html">
+                                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                            </a> -->
+                        </h1>
+                    </div>
+                  <div class="bottom-menu-content">
+                        <input type="checkbox" id="nav">
+                        <label for="nav" class="menu-bar"></label>
+                      <nav>
+                          <ul class="menu">
+                              <li class="propClone"><a href="./" class="link-nav" style="outline: none; cursor: inherit;">Home</a><span class="d-flex search-head-form editContent">
+                                  <input type="search" name="search" placeholder="Search Here.." class="editContent" style="outline: none; cursor: inherit;">
+                              </span></li>
+                              <li class="propClone"><a href="./about" class="link-nav" style="outline: none; cursor: inherit;">About</a></li>
+                              
+                                      <li class="propClone"><a href="./packages" style="outline: none; cursor: inherit;">Packages</a></li>
+                                        
+                                 <li class="propClone"><a href="./contact" class="link-nav" style="outline: none; cursor: inherit;">Contact</a></li>
+                             <li class="nav-right-sty propClone">
+                                  <a href="../admin" class="actionbg btn" style="outline: none; cursor: inherit;" target="_blank">Admin Login</a>
+                              </li>
+                          </ul>
+                      </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
+    </div><!-- covers -->
+        <section class="w3l-covers-9-main">
+            <div class="covers-9">
+                <div class="csslider infinity" id="slider1">
+                    <input type="radio" name="slides" checked="checked" id="slides_1">
+                    <input type="radio" name="slides" id="slides_2">                    
+                  <input type="radio" name="slides" id="slides_3">
+                    <input type="radio" name="slides" id="slides_4">
+                    <ul class="banner_slide_bg">
+                        <li class="bg bg1" style="background-color: rgba(0, 0, 0, 0); margin-top: 0px; background-image: url(&quot;{% static 'bundles/dandeli-resorts-1.jpg' %} &quot;);">
+                            <div class="wrapper">
+                                <div class="cover-top-center-9">
+                                    <div class="w3ls_cover_txt-9">
+                                        <h6 class="tag-cover-9 editContent" style="outline: none; cursor: inherit;">Journey</h6>
+                                        <h3 class="title-cover-9 editContent" style="outline: none; cursor: inherit;">Adventure Activities</h3>
+                                        <p class="para-cover-9 editContent" style="outline: none; cursor: inherit;">Dandeli has a culture of attraction for thousands of tourist from all over the world</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li><li class="bg bg1" style="background-color: rgb(255, 255, 255); margin-top: 0px; background-image: url(&quot;{% static 'bundles/th.jfif' %} &quot;); outline: none; cursor: inherit;">
+                            <div class="wrapper">
+                                <div class="cover-top-center-9">
+                                    <div class="w3ls_cover_txt-9">
+                                        <h6 class="tag-cover-9 editContent" style="outline: none; cursor: inherit;">Journey</h6>
+                                        <h3 class="title-cover-9 editContent" style="color: rgb(255, 255, 0); background-color: rgba(0, 0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 40px; outline: none; outline-offset: -2px; cursor: inherit;">More than just a place to stay</h3>
+                                        <p class="para-cover-9 editContent" style="outline: none; cursor: inherit;">Dandeli has a culture of attraction for thousands of tourist from all over the world</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg bg1" style="background-color: rgba(0, 0, 0, 0); margin-top: 0px; background-image: url(&quot;{% static 'bundles/dandeli-nightout-camping-1.jpg' %} &quot;); outline: none; cursor: inherit; outline-offset: -2px;">
+                            <div class="wrapper">
+                                <div class="cover-top-center-9">
+                                    <div class="w3ls_cover_txt-9">
+                                        <h6 class="tag-cover-9 editContent" style="outline: none; cursor: inherit;">Great Experience</h6>
+                                        <h3 class="title-cover-9 editContent" style="outline: none; cursor: inherit;">For Traveling Anywhere</h3>
+                                        <p class="para-cover-9 editContent" style="outline: none; cursor: inherit;">Excepteur sint occaecat cupidatat non
+                                            proident, sunt in
+                                            culpa qui officia deserunt mollit anim id est laborum mollit anim id est.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg bg1" style="outline: none; outline-offset: -2px; cursor: inherit; background-color: rgba(0, 0, 0, 0); margin-top: 0px; background-image: url(&quot;{% static 'bundles/Cover18.jpg' %} &quot;);">
+                            <div class="wrapper">
+                                <div class="cover-top-center-9">
+                                    <div class="w3ls_cover_txt-9">
+                                        <h6 class="tag-cover-9 editContent" style="outline: none; cursor: inherit;">Enjoy</h6>
+                                        <h3 class="title-cover-9 editContent" style="outline: none; cursor: inherit;">Wildlife</h3>
+                                        <p class="para-cover-9 editContent" style="outline: none; cursor: inherit;">Sed ut perspiciatis unde omnis iste natus
+                                            error sit
+                                            voluptatem accusantium doloremque laudantium sunt in culpa qui laborum.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg bg1" style="outline: none; cursor: inherit;">
+                            <div class="wrapper">
+                                <div class="cover-top-center-9">
+                                    <div class="w3ls_cover_txt-9">
+                                        <h6 class="tag-cover-9 editContent" style="outline: none; cursor: inherit;">What Next Country?</h6>
+                                        <h3 class="title-cover-9 editContent" style="outline: none; cursor: inherit;">Discover Night Francisco</h3>
+                                        <p class="para-cover-9 editContent" style="outline: none; cursor: inherit;">Totam rem aperiam, eaque ipsa quae ab illo
+                                            inventore
+                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="arrows">
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                        <label for="slides_4"></label>
+                    </div>
+                    <div class="navigation">
+                        <div>
+                            <label for="slides_1"></label>
+                            <label for="slides_2"></label>
+                            <label for="slides_3"></label>
+                            <label for="slides_4"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //covers --><!-- form -->
+    <section class="w3l-form-my-mian">
+        <div class="form-botm-cont editContent" style="color: rgb(255, 255, 255); font-size: 25px; background-color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; outline: none; cursor: inherit;">
+            <div class="">
+                <div class="form-inner-cont">
+                    <div class="d-grid top-content-7"><h2><u style="" class="">Get the Best Holiday Planned!&nbsp;</u></h2>
+                    </div>
+                    <form action="./" method="POST" class="d-grid signin-form editContent" style="outline: none; cursor: inherit;">
+					{% csrf_token %}
+					{% for field in enquiry_form %}
+                        <div class="form-input editContent" style="outline: none; cursor: inherit;">
+						<label>{{field.label}}</label>
+                           {{ field }}
+                        </div>
+					{% endfor %}
+                        
+                        <button class="btn buttonbg" style="outline: none; cursor: inherit;" type="submit">Send Enquiry</button>
+                    </form>
+                    <p class="sub-paragraph editContent" style="outline: none; cursor: inherit;">By submitting this form, you authorize Travel and its partners
+                        to contact
+                        you for this enquiry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //form --><section class="w3l-grids-6">
+		<!-- grids -->
+		<div class="grids-layout editContent" style="outline: none; outline-offset: -2px; cursor: inherit; color: rgb(85, 90, 100); font-size: 20px; background-color: rgba(0, 0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">
+			<div class="wrapper">
+				<h3 class="title-main editContent" style="outline: none; outline-offset: -2px; cursor: inherit;">Activities</h3>
+				<p class="sub-title editContent" style="outline: none; cursor: inherit;">Enjoy Different Activities&nbsp;</p>
+				<div class="d-grid grid-column-3">
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/White_Water_Rafting.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">White Water Rafting</a></h3>
+					</div>
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/Dandeli_Jungle_Safari.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">Dandeli Jungle Safari</a></h3>
+					</div>
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/Jungle_Trekking.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">Jungle Trekking</a></h3>
+					</div>
+				</div>
+				<div class="d-grid grid-column-3 second-grids">
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/Water_Zorbing.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">Water Zorbing</a></h3>
+					</div>
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/Burma_Bridge.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">Burma Bridge</a></h3>
+					</div>
+					<div class="gd-innf editContent" style="outline: none; cursor: inherit;">
+						<a href="#single"><img class="img-responsive" src="{% static 'bundles/images/Zip_Line_Valley_Crossing.jpg' %}" alt="image" style="outline: none; cursor: inherit;"></a>
+						<h3><a href="#single" class="vv-link editContent" style="outline: none; cursor: inherit;">Zip-Line  (Valley Crossing)</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //grids -->
+	</section><!-- Call to action 29 block -->
+		
+	
+    <!-- //w3l-customers-7 -->
+	<script type="text/javascript">
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+				scrollFunction()
+			};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("movetop").style.display = "block";
+				} else {
+					document.getElementById("movetop").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script><section class="w3l-footer-16">
+		<!-- w3l-footer-16 -->
+		<div class="w3l-footer-16-main">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-md-12">
+						<h2><a href="index.html" class="logo-2 editContent" style="outline: none; cursor: inherit;">Maldorkar Resort</a></h2>
+						<p>All rights reserved.<br>©2020. Design By <a href="#" target="_blank">Laxmi & Pallavi,JSS SMI UG & PG Studies, Dharwad.</a>
+						</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- move top -->
+		<button onclick="topFunction()" id="movetop" title="Go to top">
+			<span class="fa fa-angle-up" style="outline: none; cursor: inherit;"></span>
+		</button>
+		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+				scrollFunction()
+			};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("movetop").style.display = "block";
+				} else {
+					document.getElementById("movetop").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+		<!-- //move top -->
+	</section>
+	<!-- //w3l-footer-16 --></div><!-- /#page -->
+
+
+</body></html>

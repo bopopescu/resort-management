@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+{% load static %}
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+</head>
+
+<body>
+{% block content %}
+
+<table width="200" border="1">
+  <tr>
+    <td>S.No</td>
+    <td>Package</td>
+    <td>Booking Date </td>
+    <td>Checkin Date </td>
+    <td>Checkout Date </td>
+    <td>Number of People </td>
+    <td>Booking Amount </td>
+    <td>Paid Status</td>
+    <td>Booking Status </td>
+    <td>Edit</td>
+    <td>Delete</td>
+  </tr>
+  
+  {% for booking in shelf %}
+  <tr>
+    <td>{{ i }}</td>
+    <td>{{ booking.package}}</td>
+    <td>{{ booking.booking_date}}</td>
+    <td>{{ booking.checkin_date}}</td>
+    <td>{{ booking.checkout_date}}</td>
+    <td>{{ booking.number_of_people}}</td>
+    <td>{{ booking.booking_amount}}</td>
+    <td>{{ booking.paid_status}}</td>
+    <td>{{ booking.booking_status}}</td>
+    <td><a href="update/{{booking.id}}" class="btn btn-warning" id = '{{booking.id}}'>edit</a>
+       </td>
+    <td><a href="delete/{{booking.id}}" class="btn btn-danger" id = '{{booking.id}}'>delete</a></td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
+</body>
+</html>
