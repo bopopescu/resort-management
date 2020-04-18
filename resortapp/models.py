@@ -8,7 +8,7 @@ Statuses=[
     ('p','pending'),
     ('b','Booked'),
     ('c','Canceled')
-    
+
 ]
 class Designation(models.Model):
     designation_name=models.CharField(max_length=60)
@@ -47,7 +47,7 @@ class Booking(models.Model):
 
 
 class Purchase_details(models.Model):
-    purchase_date=models.DateTimeField('purchase date')
+    purchase_date=models.DateTimeField('purchase_date')
     purchase_description=models.CharField(max_length=100)
     purchase_amount=models.FloatField(default=0.0)
     
